@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(72, 6, 100);
+    margin: ;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+div{
+    width: 65px;
+    height: 65px;
+    /* border: 2px solid red; */
+    display: flex;
+
+
+    
+    
+}
+div img{
+    max-width: 50px;
+    min-height: 50px;
+    margin: 10px;
+    border-radius: 100px;
+    
+    
+    
+}
+div h3{
+    margin-top: 15px;  
+    font-size: 16px;
+    color: rgb(234, 151, 234);
+}
+nav ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    gap: 10px;
+    margin-top: -40px;
+    margin-right: 4px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: magenta;
+    background-color: rebeccapurple;
+    padding: 9px;
+    border-radius: 12px;
+}
+nav ul li a:hover{
+    background-color: beige;
+    color: brown;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.2);
+}
+
+main div{
+    width: 900px;
+    height: 300px;
+    border: 1px  magenta;
+    margin: 50px;
+    margin-left: 12%;    
+    
+}
+.main-3{
+    background-color: rebeccapurple;
+    border: 2px solid magenta;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 12px;
+}
+.main-4{
+    background-color: rebeccapurple;
+    border: 2px solid magenta;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 12px;
+}
+h2{
+    text-align: center;
+}
+p{
+    font-size: 30px;
+    color: rgb(234, 151, 234);
+}
+@media(max-width: 480px){
+    nav ul{
+        justify-content: space-evenly;
+        gap: 20px;
+        margin-top: 30px;
+        font-size: 13px;
+        display: none;
+    }
+    nav ul li a{
+        padding: 8px;
+    }
+    div{
+        margin-top: ;
+    }
+    .main-4{
+        margin-top: 70px;
+        
+    }
+    p{
+        font-size: 20px;
+    }
+    header .header-a i{
+        float: right;
+        margin-top: -30px;
+        display: block;
+        color: green;
+        
+    }
+}
+
+footer{
+    width: 620px;
+    height: 100px;
+    border: 5px solid rebeccapurple;
+    margin-top: 50px;
+    background-color: white;
+}
+ footer a i{
+    font-size: 30px;
+    margin-top: 20px;
+ }
+ header .header-a i{
+    color: rgb(72, 6, 100);;
+    font-size: 40px;
+    cursor: pointer;
+    
+ }
+ 
+ 
